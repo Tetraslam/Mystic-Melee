@@ -10,7 +10,7 @@ class Wizard:
         self.spells = ["fireball", "lightning bolt", "heal", "curse", "shield", "poison", "teleport", "charm", "invisibility", "summon"]
 
     def __str__(self):
-        return f"{self.name}: {self.health}/{self.max_health} HP, {self.mana} Mana"
+        return f"{self.name}: {self.health}/{self.max_health} HP, {self.mana} Mana" 
 
     def attack(self, other, spell):
         cost = 0
