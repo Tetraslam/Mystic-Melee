@@ -1,5 +1,6 @@
 import random
 
+
 class Wizard:
     def __init__(self, name, max_health):
         self.name = name
